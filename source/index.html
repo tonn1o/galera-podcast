@@ -1,15 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Lorem Ipsum</title>
-  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Deloitte</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
-  <div>
-    <h1 class="test-class">Ullamco Laboris</h1>
-    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <span>dolor in reprehenderit</span> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p><a href="page2.html">Page 2</a>
-  </div>
+    <div class="container">
+        <header class="header">
+            <a href="#" class="header__logo-link"><img src="images/deloitte_logo.png" alt="" class="header__logo"></a>
+            <div class="header__user">
+                <div class="header__user-pic"></div>
+                <span class="header__user-name">Amigo</span>
+            </div>
+        </header>
+
+        <div class="panel content-container">
+            <div class="panel__header">
+                <h1 class="panel__title">Project name very long project name</h1>
+                <ul class="panel__btn-group">
+                    <li class="panel__btn-group-item">
+                        <button class="panel__btn">Save draft</button>
+                    </li>
+                    <li class="panel__btn-group-item">
+                        <button class="panel__btn">Export</button>
+                    </li>
+                    <li class="panel__btn-group-item">
+                        <button class="panel__btn">Add project</button>
+                    </li>
+                    <li class="panel__btn-group-item">
+                        <button class="panel__btn">Compare projects</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="panel__info">
+                <div class="panel__info-item panel__info-status"><i class="panel__info-item-icon far fa-thumbs-down"></i> <span class="panel__info-item-text">Rejected</span></div>
+                <div class="panel__info-item panel__info-user"><i class="panel__info-item-icon far fa-user"></i> <span class="panel__info-item-text">Amigo</span></div>
+                <div class="panel__info-item panel__info-date"><i class="panel__info-item-icon far fa-calendar-alt"></i> <span class="panel__info-item-text">12.10.2017</span></div>
+            </div>
+            <div class="panel__filters">
+                <label class="panel__filters-search-wrap">
+                    <input class="panel__filters-search" placeholder="Search" type="text" role="searchbox">
+                </label>
+                <label class="panel__filters-label">
+                    Step results
+                    <select class="panel__filters-select" name="step">
+                        <option value="text">Text text text text text text text text</option>
+                    </select>
+                </label>
+                <a href="#" class="panel__link">Clear filters</a>
+            </div>
+            <div class="panel__counter">Shown 15 of 358</div>
+        </div>
+    </div>
 </body>
 </html>

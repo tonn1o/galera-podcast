@@ -43,7 +43,7 @@ module.exports = {
     extensions: ['.js', '.es6'],
   },
   output: {
-    path: __dirname + '/build',
+    path: '/build',
     filename: 'index.js',
   },
   devServer: {
