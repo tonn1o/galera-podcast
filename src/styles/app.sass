@@ -1,0 +1,238 @@
+@import "variables"
+@import "typo"
+@import "mixins"
+@import "global"
+
+.container
+  width: 100%
+  padding: 0 1rem
+  margin: 0 auto
+  @include desktop
+    padding: 0
+    max-width: 900px
+
+.section-title
+  margin: 2.5rem 0 1.5rem
+  padding: 0
+  font-size: 2.2rem
+  font-weight: 200
+  font-style: normal
+  line-height: 1.2em
+  letter-spacing: -0.02em
+  color: $black
+
+.hero-banner
+  position: relative
+  display: block
+  width: 100%
+  padding: 3.5rem 1rem
+  background-size: 0 0
+  background-color: $white
+  &:before
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: linear-gradient(to right, $dark-gray, $blue) no-repeat center center
+    background-size: cover
+    content: ''
+  &:after
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background: linear-gradient(to bottom, $black 0%, transparent 100%)
+    opacity: 0.4
+    content: ''
+  @include tablet
+    height: 500px
+    padding-top: 3rem
+    &:before
+      @include tablet
+      height: 500px
+      transform: skewY(5deg)
+      transform-origin: top right
+    &:after
+      height: 500px
+  @include desktop
+    padding-top: 5rem
+
+  &__content
+    position: relative
+    display: flex
+    flex-flow: column wrap
+    align-items: center
+    width: 100%
+    max-width: 900px
+    margin: 0 auto
+    z-index: 5
+    @include tablet
+      justify-content: space-between
+      align-items: center
+      flex-flow: row nowrap
+    @include desktop
+      align-items: flex-start
+
+  &__cover
+    position: relative
+    width: 50%
+    @include tablet
+      min-width: 200px
+    @include desktop
+      width: 375px
+      height: 375px
+      min-width: auto
+
+    &-img
+      box-shadow: 0 10px 30px rgba($black, 0.15)
+      width: 100%
+      height: auto
+      @include desktop
+        width: 375px
+        height: 375px
+
+  &__description
+    display: flex
+    justify-content: center
+    flex-direction: column
+    padding: 3.5rem 0 0
+    font-size: 1.1rem
+    line-height: 1.5rem
+    color: $white
+    @include tablet
+      height: 300px
+      padding: 2rem 0 0 2.5rem
+    @include desktop
+      padding: 2rem 0 0 5rem
+
+    &-title
+      margin: 0 0 10px 0
+      font-size: 1.9rem
+      font-weight: 700
+      line-height: 2rem
+
+    &-btn
+      height: 47px
+      margin: 5px 5px 5px 0
+
+    &-text
+      margin: 0
+
+    &-cta
+      margin: 15px 0 0
+
+.cta
+  display: flex
+  justify-content: space-between
+  flex-flow: column wrap
+  margin-top: 2.5rem
+  padding-bottom: 2.5rem
+  @include tablet
+    flex-flow: row nowrap
+
+  &__player
+    height: 165px
+    margin-top: .5rem
+
+  &__links
+    width: 100%
+    @include tablet
+      width: 50%
+
+    &-group
+      margin-top: 1.5rem
+
+    &-title
+      margin-top: 2.5rem
+
+      &:first-child
+        margin-top: 0
+
+  &__link
+    display: inline-block
+
+    &-img
+      height: 34px
+
+  &__img
+    width: 100%
+    height: auto
+
+    &-link
+      display: none
+      @include tablet
+        display: flex
+        align-items: center
+        width: 50%
+
+.about
+  &__card
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-flow: column wrap
+    margin: 0 0 1.5rem
+    padding: 1.5rem
+    border-radius: 15px
+    background: linear-gradient(to right, $dark-gray 60%, $blue 105%) no-repeat center center
+    color: $white
+    box-shadow: 0 0 15px rgba($black, 0.25)
+    @include tablet
+      flex-flow: row nowrap
+
+    &:last-child
+      background: linear-gradient(to left, $dark-gray 60%, $blue 105%) no-repeat center center
+
+    &-img
+      width: 150px
+      height: 150px
+      margin-bottom: 1.5rem
+      border: 4px solid $white
+      border-radius: 50%
+      background: $white
+      @include tablet
+        margin-bottom: 0
+
+    &-content
+      width: 100%
+      @include tablet
+        padding-left: 2rem
+
+    &-name
+      margin: 0
+      font-size: 1.6rem
+      font-weight: 300
+      line-height: 32px
+      &--alt
+        color: $gray
+
+        &-robot
+          display: inline-block
+          width: 1.5em
+          height: 1.1em
+          color: transparent
+          background: url("../images/robot.png") no-repeat
+          background-size: contain
+          @include tablet
+            height: 1.3em
+
+    &-socials
+      width: 100%
+
+      &-item
+        &-link
+          margin-right: .25rem
+          font-size: 1.5rem
+          color: $white
+          transition: opacity .3s
+          @include hocus()
+            opacity: .7
+
+
+.post-scriptum
+  padding: 5px 0
+  font-size: .75rem
+  color: $gray
+  text-align: center

@@ -2,13 +2,14 @@
 node_modules
 
 # production
-build
+dist
+.env
 
 # misc
 .DS_Store
 npm-debug.log
 .vscode
 
-#phpstorm
+# webstorm
  .idea/workspace.xml
  .idea
