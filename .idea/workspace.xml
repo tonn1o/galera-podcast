@@ -1,52 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e9476de-fd91-4aa7-9f08-e82f855b84bd" name="Default" comment="🎉 initial commit">
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9e9476de-fd91-4aa7-9f08-e82f855b84bd" name="Default" comment="move images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/Soundcloud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/android-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/android-icon-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/android-icon-36x36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/android-icon-48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/android-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/android-icon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/apple-icon-114x114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/apple-icon-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/apple-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/apple-icon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/apple-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/apple-icon-57x57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/apple-icon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/apple-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/apple-icon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/apple-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/badge-soundcloud1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/favicon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/iPhoneX_Mock_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/ms-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/ms-icon-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/ms-icon-310x310.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/ms-icon-70x70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/soundcloud-orange.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/space-desk-workspace-coworking.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/android-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/android-icon-144x144.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/android-icon-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/android-icon-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/android-icon-36x36.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/android-icon-36x36.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/android-icon-48x48.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/android-icon-48x48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/android-icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/android-icon-72x72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/android-icon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/android-icon-96x96.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/apple-icon-114x114.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/apple-icon-114x114.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/apple-icon-120x120.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/apple-icon-120x120.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/apple-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/apple-icon-144x144.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/apple-icon-152x152.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/apple-icon-152x152.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/apple-icon-180x180.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/apple-icon-180x180.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/apple-icon-57x57.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/apple-icon-57x57.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/apple-icon-60x60.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/apple-icon-60x60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/apple-icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/apple-icon-72x72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/apple-icon-76x76.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/apple-icon-76x76.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/apple-icon-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/apple-icon-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/apple-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/apple-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/browserconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/favicon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/favicon-96x96.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/ms-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/ms-icon-144x144.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/ms-icon-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/ms-icon-150x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/ms-icon-310x310.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/ms-icon-310x310.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fav/ms-icon-70x70.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fav/ms-icon-70x70.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_normalize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/app.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,35 +108,39 @@
           <entry key="babelrc" value="3" />
           <entry key="browserslist" value="3" />
           <entry key="css" value="1" />
+          <entry key="ejs" value="2" />
           <entry key="env" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="4" />
+          <entry key="html" value="7" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="6" />
-          <entry key="js" value="14" />
-          <entry key="json" value="6" />
+          <entry key="js" value="15" />
+          <entry key="json" value="7" />
           <entry key="md" value="4" />
-          <entry key="png" value="6" />
+          <entry key="png" value="10" />
           <entry key="psd" value="1" />
           <entry key="sass" value="10" />
           <entry key="scss" value="1" />
           <entry key="svg" value="7" />
           <entry key="txt" value="2" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="1" />
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="4" />
-          <entry key="Image" value="14" />
-          <entry key="JSON" value="9" />
-          <entry key="JavaScript" value="14" />
+          <entry key="EJS" value="2" />
+          <entry key="HTML" value="7" />
+          <entry key="Image" value="18" />
+          <entry key="JSON" value="10" />
+          <entry key="JavaScript" value="15" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="SCSS" value="1" />
           <entry key="SVG" value="7" />
           <entry key="Sass" value="10" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -161,11 +150,12 @@
           <entry key="env" value="7" />
           <entry key="gitignore" value="19" />
           <entry key="html" value="2745" />
-          <entry key="js" value="238" />
+          <entry key="js" value="359" />
           <entry key="json" value="25" />
           <entry key="md" value="4" />
           <entry key="sass" value="2362" />
           <entry key="svg" value="30" />
+          <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -174,9 +164,9 @@
           <entry key="EJS" value="37" />
           <entry key="HTML" value="2745" />
           <entry key="JSON" value="26" />
-          <entry key="JavaScript" value="238" />
+          <entry key="JavaScript" value="359" />
           <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="PLAIN_TEXT" value="45" />
           <entry key="SVG" value="30" />
           <entry key="Sass" value="2362" />
         </counts>
@@ -195,64 +185,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="165" column="29" lean-forward="true" selection-start-line="165" selection-start-column="29" selection-end-line="165" selection-end-column="29" />
+            <state relative-caret-position="442">
+              <caret line="178" column="24" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="24" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="46" column="11" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.babelrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/app.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -266,14 +205,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pos</find>
-      <find>browserlist</find>
-      <find>opti</find>
-      <find>Over</find>
-      <find>title</find>
-      <find>cta</find>
-      <find>px</find>
-      <find>#</find>
       <find>card</find>
       <find>300px</find>
       <find>img</find>
@@ -296,6 +227,14 @@
       <find>html</find>
       <find>env</find>
       <find>plugins</find>
+      <find>png</find>
+      <find>images</find>
+      <find>copy</find>
+      <find>exclude</find>
+      <find>ejs</find>
+      <find>ima</find>
+      <find>im</find>
+      <find>fa</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -331,10 +270,10 @@
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/scripts/app.js" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/src/index.ejs" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/index.ejs" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -394,7 +333,7 @@
               <item name="podcastWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="podcastWebsite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -412,12 +351,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/scripts" />
-      <recent name="$PROJECT_DIR$/source/images" />
-      <recent name="$PROJECT_DIR$/source" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/dist" />
+      <recent name="$PROJECT_DIR$/src/scripts" />
       <recent name="$PROJECT_DIR$/source/images" />
     </key>
   </component>
@@ -526,29 +467,43 @@
       <option name="project" value="LOCAL" />
       <updated>1542238676737</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="move images">
+      <created>1543771095826</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543771095826</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update config">
+      <created>1543773033980</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543773033980</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55350000" />
+    <option name="totallyTimeSpent" value="57625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49275362" visible="true" weight="0.21484992" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49273607" visible="true" weight="0.21432333" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Gulp" order="2" sideWeight="0.5011389" side_tool="true" weight="0.3093728" />
       <window_info id="npm" order="3" sideWeight="0.50665057" side_tool="true" weight="0.22011586" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26923078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26923078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.4008097" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.4008097" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.4959514" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
@@ -567,7 +522,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value=" initial commit" />
+    <MESSAGE value="move images" />
+    <MESSAGE value="update config" />
+    <option name="LAST_COMMIT_MESSAGE" value="update config" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/source/more-html/page3.html" />
@@ -625,9 +582,6 @@
     <entry file="file://$PROJECT_DIR$/src/images/soundcloud.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/robot.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/pic.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -652,20 +606,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/images/android-icon-36x36.png" />
-    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md" />
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js" />
     <entry file="file://$PROJECT_DIR$/browserslist" />
     <entry file="file://$PROJECT_DIR$/src/styles/app.sass">
       <provider selected="true" editor-type-id="text-editor">
@@ -674,12 +619,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/images/kostyuchenko.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/images/kostyuchenko.png" />
     <entry file="file://$PROJECT_DIR$/src/styles/_normalize.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5330">
@@ -687,26 +627,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processHTMLHelper.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postcss.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fav/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.txt" />
+    <entry file="file://$PROJECT_DIR$/processHTMLHelper.js" />
+    <entry file="file://$PROJECT_DIR$/postcss.config.js" />
     <entry file="file://$PROJECT_DIR$/src/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -719,23 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="46" column="11" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="4" column="88" selection-start-line="4" selection-start-column="88" selection-end-line="4" selection-end-column="88" />
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="165" column="29" lean-forward="true" selection-start-line="165" selection-start-column="29" selection-end-line="165" selection-end-column="29" />
+        <state relative-caret-position="208">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -756,8 +664,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/robot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fav/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fav/browserconfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/images/robot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="4" column="88" selection-start-line="4" selection-start-column="88" selection-end-line="4" selection-end-column="88" />
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="178" column="24" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="24" />
         </state>
       </provider>
     </entry>
