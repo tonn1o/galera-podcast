@@ -85,33 +85,13 @@ module.exports = (env = {}, argv) => {
                 },
                 {
                     test: /\.(gif|png|jpe?g|svg)$/i,
-                    exclude: /fonts/,
+                    exclude: /fav/,
                     use: [
                         {
                             loader: 'file-loader',
                             options: {
                                 name: '[path][name].[ext]',
-                                publicPath: '..' // use relative urls
-                            }
-                        },
-                        {
-                            loader: 'image-webpack-loader',
-                            options: {
-                                bypassOnDebug: ! isProduction,
-                                mozjpeg: {
-                                    progressive: true,
-                                    quality: 65
-                                },
-                                optipng: {
-                                    enabled: false
-                                },
-                                pngquant: {
-                                    quality: '65-90',
-                                    speed: 4
-                                },
-                                gifsicle: {
-                                    interlaced: false
-                                }
+                                publicPath: './images' // use relative urls
                             }
                         }
                     ]
@@ -177,11 +157,12 @@ module.exports = (env = {}, argv) => {
                 new plugins.clean(['dist']),
                 new plugins.copy([
                     {
-                        from: 'data/**/*.json',
-                        // to: '',
-                        transform: content => {
-                            return minJSON(content.toString())
-                        }
+                        from: 'fav',
+                        to: 'fav',
+                    },
+                    {
+                        from: 'images',
+                        to: 'images',
                     }
                 ]),
                 new plugins.sri({
