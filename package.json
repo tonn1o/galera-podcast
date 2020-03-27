@@ -1,17 +1,16 @@
 {
   "name": "webpack-config",
-  "version": "1.1.1",
+  "version": "1.0.0",
   "description": "This is my Webpack 4 configuration for static projects.",
   "scripts": {
     "dev": "webpack-dev-server --progress --hide-modules --mode development",
     "build": "webpack --progress --hide-modules --mode production"
   },
   "author": {
-    "name": "Nenad Novaković",
-    "email": "n.dvlden@gmail.com",
-    "url": "https://github.com/dvlden"
+    "name": "Toni Babenko",
+    "email": "a.babenko.e@gmail.com",
+    "url": "https://github.com/TheTonnio"
   },
-  "license": "MIT",
   "browserslist": [
     "last 1 major version",
     "> 1%"
@@ -35,7 +34,7 @@
     "image-webpack-loader": "^4.5.0",
     "jsonminify": "^0.4.1",
     "mini-css-extract-plugin": "^0.4.5",
-    "node-sass": "^4.10.0",
+    "node-sass": "^4.13.1",
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
     "webpack": "^4.25.1",

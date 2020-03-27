@@ -48,15 +48,15 @@
     opacity: 0.4
     content: ''
   @include tablet
-    height: 500px
+    height: 600px
     padding-top: 3rem
     &:before
       @include tablet
-      height: 500px
+      height: 600px
       transform: skewY(5deg)
       transform-origin: top right
     &:after
-      height: 500px
+      height: 600px
   @include desktop
     padding-top: 5rem
 
@@ -104,9 +104,9 @@
     color: $white
     @include tablet
       height: 300px
-      padding: 2rem 0 0 2.5rem
+      padding: 2.5rem 0 0 2.5rem
     @include desktop
-      padding: 2rem 0 0 5rem
+      padding: 5rem 0 0 5rem
 
     &-title
       margin: 0 0 10px 0
@@ -206,18 +206,6 @@
       font-size: 1.6rem
       font-weight: 300
       line-height: 32px
-      &--alt
-        color: $gray
-
-        &-robot
-          display: inline-block
-          width: 1.5em
-          height: 1.1em
-          color: transparent
-          background: url("../images/robot.png") no-repeat
-          background-size: contain
-          @include tablet
-            height: 1.3em
 
     &-socials
       width: 100%
